@@ -1,3 +1,7 @@
+/*The problem can be broken down as perfect sum problem where we need to print a subset that leads to a sum X.
+Note: dp[i][j] stores true if sum j is possible with array elements from 0 to i.
+We have two possibilities for every element and either we include it or we don't.
+*/
 #include <bits/stdc++.h>
 using namespace std;
 bool **dp;
